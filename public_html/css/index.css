@@ -1,0 +1,240 @@
+@import "./fonts.css";
+/* @import "./effects.css"; */
+/*@import "../fa/css/solid.css";
+@import "../fa/css/all.css";*/
+
+body, .item-title{
+    font-family: "UbuntuCondensed-Regular";
+    background-image: url(../img/moscou-city.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header{
+    background-color: rgba(255,255,255,0.7);
+}
+
+main{
+    /* margin-left: 30px; */
+    /* margin-right: 30px; */
+    min-height: 1080px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+footer {
+    background-color: rgba(0,0,0,0.7);
+    color: #FFF;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50pt;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* color: #1A2B6D; */
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+}
+
+#navbarBrandAlfand{
+    font-size: 24pt;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #1A2B6D;
+    color: #FFF !important;
+    padding: 10px;
+}
+
+.catalog{
+    font-size: 20pt;
+}
+
+.navigator,
+.bg_dark, .bg_dark *{
+    background-color: #6300EE;
+    color: #FFF;
+}
+
+.img-logo{
+    float: bottom;
+    
+}
+
+.bg_white, .bg_white *{
+    background-color: #FFF;
+    color: #40009B;
+}
+
+.line_white{
+    background-color: #FFF;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar{
+    font-family: "UbuntuCondensed-Regular";
+}
+.nav-link{
+    color: #FFF !important;
+    font-weight: normal;
+}
+.nav-link:hover{
+    color: #D2B5AA !important;
+    /*color: #F18DFF !important;*/
+}
+.bd-placeholder-img {
+    /* font-size: 1.125rem; */
+    font-size: 26pt;
+    text-anchor: middle;
+    user-select: none;
+}
+
+.vertical-center{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.alfand{
+    margin-right: 60px;
+    margin-left: auto;
+}
+
+.mylogo{
+    height: 360px;
+    /* background-color: #CEA251; */
+    background-color: #FFF;
+}
+.mylogo > .container {
+    margin-top: 60px;
+}
+.jumbotron{
+    margin-bottom: 10px;
+}
+.profession{
+    font-size: 20pt;
+}
+
+.item-header-dark{
+    border-bottom-color: #FFF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.item-header-white{
+    border-bottom-color: #6300EE;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.item-title{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-body{
+/*    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 3px;*/
+    text-align: center;
+}
+.card-body, .item-content{
+    padding: 13px;
+    margin-bottom: 0px;
+    /* font-family: "Noto Serif", "Exo2-Regular"; */
+    font-family: "Exo2-Regular";
+    font-size: 20pt;
+}
+
+.card-text{
+    font-size: 14pt;
+    text-align: center;
+    /* border-bottom-style: double; */
+    border-bottom-style: none;
+    border-bottom-width: 7px;
+    border-bottom-color: rgba(212, 61, 7, 1);
+    padding-bottom: 15px;
+}
+.card:hover{
+ /*border: solid red 2px;*/
+ cursor: pointer;
+ /* transform: translate(-4px, -6px); */
+ box-shadow: 12px 12px 20px 0px rgba(50, 50, 50, 0.83)!important;
+}
+
+.album {
+    background-color: rgba(255,255,255,0.8);
+}
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 0;
+    /*background-color: rgba(255,255,255,0.7);*/
+    background-color: transparent;
+}
+
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 900px;
+}
+
+.modal-body p{
+    font-size: 14pt;
+}
+
+.modal-title {
+    text-align: center;
+}
+footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    .jumbotron {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .bd-placeholder-img-lg {
+        font-size: 20pt;
+    }
+}
